@@ -1,0 +1,8 @@
+nltk
+torch
+numpy
+pandas
+pillow
+torchtext
+torchvision
+scikit-learn
