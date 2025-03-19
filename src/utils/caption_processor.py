@@ -5,10 +5,11 @@ organization: L.J University
 """
 
 from tqdm import tqdm
+from config.config import Config
 from collections import defaultdict
 
 class CaptionProcessor:
-    def __init__(self, caption_file='/content/captions.txt'):
+    def __init__(self, caption_file=Config().TRAIN_CAPTIONS_PATH):
         self.caption_file = caption_file
         self.mapping = defaultdict(list)
 
