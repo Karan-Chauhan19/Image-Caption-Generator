@@ -1,8 +1,11 @@
 nltk
 torch
 numpy
+pickle
 pandas
 pillow
 torchtext
 torchvision
 scikit-learn
+tqdm.notebook
+sentence_transformers
