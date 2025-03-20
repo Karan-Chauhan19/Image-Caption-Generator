@@ -14,7 +14,7 @@ setup(
     author='Karan-Chauhan' ,# author of the package
     author_email='kc879022@gmail.com', # email of the author
     url='https://github.com/Karan-Chauhan19/Image-Caption-Generator', # url of the project
-    install_requires=['pandas','torch','tensorflow','keras'],
+    install_requires=['nltk','torch','pickle','numpy','pandas','pillow','torchvision','sentence_transformers','scikit-learn','tqdm.notebook','torchtext'],
     # list of the dependencies required by the package
     classifiers=['Programming Language :: python :: 3.12.3']
 )
